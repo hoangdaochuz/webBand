@@ -1,0 +1,64 @@
+/* PC */
+@media (min-width: 1024px) {
+    
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px ) {
+    
+}
+/* Mobile */
+@media (max-width: 740px) {
+    #header .menu-mobile-btn{
+        position: absolute;
+        top: 0;
+        right:0;
+        display: block;
+    }
+    #header .search-but{
+        display: none;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav{
+        display: block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 9px 36px;
+    }
+    #nav li a{
+        padding: 2px 24px;
+    }
+    #nav> li:first-child{
+        display: inline-block;
+    }
+    #nav> li{
+        display: block;
+    }
+    #nav> li:hover{
+        background-color: #ccc;
+    }
+    #content .member-item{
+        width: 100%;
+    }
+    #content .img-member{
+        width: 60%;
+        margin-bottom: 14px;
+    }
+    .place-item,
+    .sub-contact,
+    .row-half,
+    .buton-send{
+        width: 100%;
+    }
+    .ticket-but{
+        display: block;
+        text-align: center;
+        margin-bottom: 2px;
+    }
+}
